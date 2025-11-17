@@ -16,11 +16,11 @@
 # print(list(range(2, 20, 3))) #2 (itu angka pertamanya), 20(angka maksimal nya), 3 (mau di tambah 3, sampai ke angka maksimal nya)
 
 # #Program untuk iterasi list menggunakan pengindeksan
-mapel = ['Matematika', 'Fisika', 'Kimia']
+# mapel = ['Matematika', 'Fisika', 'Kimia']
 
-#iterasi list menggunakan indeks
-for i in range(len(mapel)):
-    print("Saya suka", mapel[i])
+# #iterasi list menggunakan indeks
+# for i in range(len(mapel)):
+#     print("Saya suka", mapel[i])
 
 #WHILE
 
@@ -39,6 +39,12 @@ di sebut loop tidak terbatas'''
 #     print("The count is:", count)
 #     count = count
 # print("Good bye!")
+
+# n=int(input('Masukkan Nilai N : '))
+# x=2
+# while x<=n:
+#     print(x,end=" ")
+#     x=x+2
 
 #kendali looping ( akan berhenti klo kondisi udh false)
 #contoh menggunakan statment break
@@ -64,15 +70,15 @@ di sebut loop tidak terbatas'''
 #     print (count, "tidak kurang dari 8")
 
 #LATIHAN 
-ulang = 3
-for i in range (ulang):
-    print ("data ke - ", (i + 1))
-    nama = input("masukkan nim anda : ")
-    uts = int(input("Masukkan nilai uts anda: "))
-    uas = int(input("Masukkan nilai UAS : "))
-    print ("NIM anda adalah %s nilai UTS anda adalah %i nilai UTS anda %i " % (nama, uts, uas))
-    #$s (nama yg berupa string), kalo %i (ini buat int) sesuai type data
-    print ("-" * 40)
+# ulang = 3
+# for i in range (ulang):
+#     print ("data ke - ", (i + 1))
+#     nama = input("masukkan nim anda : ")
+#     uts = int(input("Masukkan nilai uts anda: "))
+#     uas = int(input("Masukkan nilai UAS : "))
+#     print ("NIM anda adalah %s nilai UTS anda adalah %i nilai UTS anda %i " % (nama, uts, uas))
+#     #$s (nama yg berupa string), kalo %i (ini buat int) sesuai type data
+#     print ("-" * 40)
 
 #GEROBAK FRIED CHICKEN
 #ketentuan:

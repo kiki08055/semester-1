@@ -114,26 +114,26 @@
 # print("=" * 40)
 
 # #STUDI KASUS 4
-gaji_pokok = 5000000
-product_terjual = int(input("Masukkan jumlah produk terjual: "))
-penjualan_target = 100 
-hargaPerBarang = int(input ("Masukkan harga barang : "))
-jumlah = product_terjual * hargaPerBarang
-print("=" * 40)
+# gaji_pokok = 5000000
+# product_terjual = int(input("Masukkan jumlah produk terjual: "))
+# penjualan_target = 100 
+# hargaPerBarang = int(input ("Masukkan harga barang : "))
+# jumlah = product_terjual * hargaPerBarang
+# print("=" * 40)
 
-if product_terjual >= penjualan_target:
-    bonus =  gaji_pokok * 0.2 
-else:
-    bonus =  gaji_pokok * 0.1
+# if product_terjual >= penjualan_target:
+#     bonus =  gaji_pokok * 0.2 
+# else:
+#     bonus =  gaji_pokok * 0.1
 
 
-total = gaji_pokok + bonus
+# total = gaji_pokok + bonus
 
-print(f"Bonus yang didapat : Rp{bonus:,.2f}")
-print(f"ga tau jumlah apaan : Rp{jumlah:,.2f}")
-print(f"Total gaji yang didapat : Rp{total:,.2f}")
+# print(f"Bonus yang didapat : Rp{bonus:,.2f}")
+# print(f"ga tau jumlah apaan : Rp{jumlah:,.2f}")
+# print(f"Total gaji yang didapat : Rp{total:,.2f}")
 
-print("=" * 40)
+# print("=" * 40)
 
 #STUDI KASUS 5
 # nama = input("Masukkan nama: ")

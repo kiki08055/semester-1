@@ -1,5 +1,5 @@
 # #PERCABANGAN 
-# #if sederhana
+#if sederhana
 # nilai = 70
 # if nilai > 80:
 #     print("Anda lulus")
