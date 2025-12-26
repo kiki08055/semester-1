@@ -1,16 +1,16 @@
-def selectionSort(val):
-    for i in range(len(val)-1,0,-1):
-        max = 0
-        for l in range (1, i+1):
-            if val[l]>val[max]:
-                max = l
-            temp = val[i]
-            val[i] = val[max]
-            val[max] = temp
+# def selectionSort(val):
+#     for i in range(len(val)-1,0,-1):
+#         max = 0
+#         for l in range (1, i+1):
+#             if val[l]>val[max]:
+#                 max = l
+#             temp = val[i]
+#             val[i] = val[max]
+#             val[max] = temp
 
-angka = [22, 10, 15, 3, 8, 2]
-selectionSort(angka)
-print(angka)
+# angka = [22, 10, 15, 3, 8, 2]
+# selectionSort(angka)
+# print(angka)
 
 
 def bubbleShort(x):
@@ -39,3 +39,17 @@ print(hasil)
 # angka = [22, 10, 15, 3, 8, 2]
 # insertionSort(angka)
 # print(angka)
+
+def bubbleShort(x):
+    for i in range (1, len(x)):
+        max = 1
+        for l in range(1, i+1):
+            if x[l] < x[max]:
+                max = l
+        temp = x[i]
+        x[i] = x[max]
+        x[max] = temp
+
+hasil = [22, 10, 15, 3, 8, 2]
+bubbleShort(hasil)
+print(hasil)
